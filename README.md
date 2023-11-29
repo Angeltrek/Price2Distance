@@ -14,12 +14,17 @@ En el segundo avance, se utilizan estructuras de datos, en este caso, un Árbol 
 ## Descripción del avance 3
 En este avance, se realiza un analisis de complejidad completo de cada parte del código, ademas se incluye una nueva clase para administrar los comercios. También, se incluyen funciones para poder registrar nuevos comercios dentro del archivo CSV, lo cual solo se puede hacer si se cuenta con una cuenta de administrador:
 
-Email: "admin@example.com"
-Contraseña: "password"
+Email: "admin@example.com" Contraseña: "password"
 
 ### Cambios sobre el segundo avance
 1. Cambio 1: Se realizó un cambio en la forma de mostrar los datos dentro del main, ahora se cuenta con una interfaz por donde el usuario podrá interactuar con el sistema.
-2. Cambio 2: Se implementó una nueva clase llamada 'ComerceAdmin' que ayuda a administrar la forma en que se registran o se obtienen datos de los distintos comercios que puedan existir.
+2. Cambio 2: Se implementó una nueva clase llamada 'ComerceAdmin' que ayuda a administrar la forma en que se registran o se obtienen datos de los distintos comercios que puedan existir
+
+## Entrega final
+Se corrigieron problemas con el análisis de complejidad con respecto a mostrar el arbol AVL, ya que había un error debido a que mostrar el arbol no tiene una complejidad (O (n log n)) sino una complejidad (O(n)).
+
+### Cambios sobre el tercer avance avance
+1. Cambios en el readme sobre el análisis de complejidad.
 
 ## Instrucciones para compilar el avance de proyecto
 Ejecuta el siguiente comando en la terminal:
